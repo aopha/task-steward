@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "todo-mcp": {
+      "command": "todo-mcp"
+    }
+  }
+}
