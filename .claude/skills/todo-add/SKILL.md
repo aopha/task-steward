@@ -27,7 +27,7 @@ From the user's input text, extract or infer:
 | **title** | Extract the main action/subject from input                                                                         |
 | **description** | Summarize or restate the input as a proper description                                                             |
 | **ai_suggestion** | Provide 2-4 concrete steps or advice for completing this task                                                      |
-| **tags** | Classify from: `["开发", "设计", "测试", "写作", "预研", "规划", "会议", "培训"]`                                          |
+| **tags** | Classify from: `["开发", "设计", "测试", "写作", "研究", "规划", "会议", "培训", "投资", "学习", "生活"]`            |
 | **status** | Always `doing`                                                                                                     |
 | **priority** | Infer from urgency/importance in input: `"high"` if urgent or important, `"medium"` if normal, `"low"` if can wait |
 | **assignee** | `"AI"` if task can be completed by AI alone, otherwise `"本人"`                                                      |
@@ -74,10 +74,13 @@ Report the created task's ID and title.
 - **设计**: Design work, UI/UX, architecture design
 - **测试**: Testing, QA, verification
 - **写作**: Writing, documentation, content creation
-- **预研**: Research, exploration, proof of concept
+- **研究**: Research, exploration, proof of concept
 - **规划**: Planning, strategy, roadmapping
 - **会议**: Meetings, reviews, discussions
 - **培训**: Training, learning, education
+- **投资**: Investment, financial management, asset allocation
+- **学习**: Learning, studying, skill development
+- **生活**: Daily life, personal matters, lifestyle
 
 ## Priority Guidelines
 
