@@ -38,5 +38,9 @@
       "Read(/*)",
       "mcp__todo-*"
     ]
-  }
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "todo-mcp"
+  ]
 }
